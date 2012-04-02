@@ -11,7 +11,7 @@
               $.post("sendcode.php", { phone_no: phone_no },
           		    function(data) 
           		    {
-          	           $("#result").html(data);
+          	           $(".result").html(data);
             	    }, 
             	    "html"
               );
@@ -25,7 +25,7 @@
 
 <div class = "result"></div>
 <p>Enter your phone number below, and we will send you a verification code to that phone number.</p>
-<form id = "phone" method  = "POST" action = "form.php">
+<form id = "phone" method  = "POST" action = "">
 <label for = "phone">Phone number</label>
 <input name = "phone" type = "text" id = "phone_no" />
 <input name = "submit" type = "submit" value = "Send Verification Code" />
