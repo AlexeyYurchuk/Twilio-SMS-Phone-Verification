@@ -6,7 +6,8 @@ if(isset($_POST['code']))
     
     /*** mysql hostname ***/
     $hostname = 'localhost';
-    /** database name **/
+    
+    /*** database name ***/
     $dbname = '';
     /*** mysql username ***/
     $username = 'username';
@@ -34,7 +35,6 @@ if(isset($_POST['code']))
         }
         else
         {
-            
             echo "Your account has not been validated.";
         }
         
