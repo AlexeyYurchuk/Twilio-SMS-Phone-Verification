@@ -1,11 +1,15 @@
-Here lies the code to verify a phone number using the Twilio API and SMS.
+Here lies the code to verify a phone number via SMS using the Twilio API.
 
-User inputs phone number by accessing form.php.
+User access form.php and inputs phone number.
 
 form.php contacts sendcode.php that sends a verification code to the user's phone using the twilio API.
 
 User inputs that verification code, and verify.php checks to see if the code is valid.
 
-The code provided needed to be edited to include your database configuration (see sendcode.php and verify.php). Moreover, you will need to edit the $user_id referenced in verify.php to specify the ID of the logged in user.
+The code provided needs to be edited to include your database configuration (see sendcode.php and verify.php). Moreover, you will need to edit the $user_id referenced in verify.php to specify the ID of the logged in user.
+
+The code was not tested for bugs; feel free to edit.
+
+
 
 
